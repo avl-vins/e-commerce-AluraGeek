@@ -1,0 +1,114 @@
+section.header{
+    .header__button__component--edit{
+        padding: 16px;
+    }
+}
+section.agregar{
+    background-color: var(--color-a);
+    .agregar__componente{
+        width: 80%;
+        padding: 64px 0;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+    }
+
+    .formulario__component{
+        width: calc(100%/2);
+    }
+
+    .formulario__titulo{
+        font-weight: 700;
+        font-size: 32px;
+        line-height: 38px;
+        color: var(--color-b);
+    }
+    /* .input-dinamico__component__input{
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 20px;
+    } */
+    .button__component{
+        
+        width: 100%;
+        padding-top: 8px;
+    }
+    .button__component__btn{
+        width: 100%;
+    }
+}
+@media (max-width:768px){
+    section.header{
+        .header__button__component--edit{
+            padding: 12px 4px;
+            font-weight: 600;
+            font-size: 14px;
+            line-height: 16px;
+        }
+    }
+    section.agregar{
+
+        .agregar__componente{
+            margin: 0 auto;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            width: 100%;
+        }
+    
+        .formulario__component{
+            width:100%;
+            padding: 32px ;
+        }
+        
+    
+        .formulario__titulo{
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 38px;
+            color: var(--color-b);
+        }
+        .button__component{
+            
+            width: 100%;
+            padding-top: 8px;
+        }
+        .button__component__btn{
+            width: 100%;
+        }
+    }
+
+}
+@media (max-width:360px){
+    section.header{
+        .button__component{
+          
+            
+        }
+        .header__button__component--edit{
+           width: 140%;
+            padding: 10px 8px;
+            font-weight: 600;
+            font-size: 12px;
+            line-height: 16px;
+        }
+        
+    }
+    section.agregar{
+        .agregar__componente{
+            padding: 0;
+
+        }
+        .formulario__component{
+            width:100%;
+            padding: 16px ;
+        }
+        .formulario__titulo{
+            
+               font-weight: 700;
+               font-size: 22px;
+               line-height: 26px;
+           }
+    }
+
+}
